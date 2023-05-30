@@ -7,7 +7,7 @@ Library:
 numpy, pandas, lightgbm, sklearn, matplotlib
 
 Function：
-main_lgb_stage1.ipynb and main_lgb-Stage2.ipynb reads the training dataset to train the LightGBM model and the optimal model is then applied to the application dataset to predict zircon from the carbonatite-kimberlite-alkaline silicate rocks. main_lgb_stage1.ipynb conducts a binary classification which distinguishes zircon from all kinds of either alkaline rocks (label 1) or subalkaline rocks (label 0). main_lgb-Stage2.ipynb conducts a multiclass classification, which further classifies the predicted source rocks with label 1 into carbonatites (label 1), kimberlites (label 2), and other alkaline silicate rocks (label 3). 
+main_lgb_stage1.ipynb and main_lgb-Stage2.ipynb reads the training dataset to train the LightGBM model and the optimal model is then applied to the application dataset to predict zircon from the carbonatite-kimberlite-alkaline silicate rocks. main_lgb_stage1.ipynb conducts a binary classification which distinguishes zircon from all kinds of either alkaline rocks (label 1) or subalkaline rocks (label 0). main_lgb-Stage2.ipynb conducts a multiclass classification, which further classifies the initially predicted source rocks with label 1 into carbonatites (label 1), kimberlites (label 2), and other alkaline silicate rocks (label 3). 
 
 Data：
 application data.xlsx: The application dataset containing detrital zircons with unknown source rock types.
